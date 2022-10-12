@@ -3,5 +3,7 @@ const path = require("path");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.send("Welcome Server is Running");
+  res.sendFile(path.join(__dirname.replace("controllers", "website/index.html")));
 });
+
+module.exports = router;
