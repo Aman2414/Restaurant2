@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");
+const http = require("http");
 const routes = require("./controllers/route");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 1337;
 
 app.use("/", routes);
 app.use(express.static("website"));
