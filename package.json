@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
     "start": "nodemon app.js"
   },
   "repository": {
