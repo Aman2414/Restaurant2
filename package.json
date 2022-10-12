@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/Aman2414/Restaurant-Website#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "mocha": "^10.0.0",
-    "mocha-junit-reporter": "^2.1.0"
+    "express": "^4.18.2"
   }
 }
